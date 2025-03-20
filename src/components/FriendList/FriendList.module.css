@@ -1,43 +1,41 @@
-/* Стилі для FriendList */
 .friendList {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    width: 460px;
-    margin: 16px 100px;
-  }
-  
-  .friendListItem {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid #242323;
-      padding: 20px 0;
-      width: calc((100% - 32px) / 5);
-  }
-  
-    
-  .name {
-    font-weight: bold; /* Приклад стилю для name */
-    font-size: 18px;
-    text-align: center; 
-    color: #333;
-    margin: 0;
-  }
-  
-  .online {
-    color: green;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .offline {
-    color: red;
-    margin: 0;
-    text-align: center;
-  }
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 460px;
+  margin: 16px 100px;
+}
+
+.friendListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #242323;
+  padding: 20px 0;
+  width: calc((100% - 32px) / 5);
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+.online {
+  color: green;
+  margin: 0;
+  text-align: center;
+}
+
+.offline {
+  color: red;
+  margin: 0;
+  text-align: center;
+}

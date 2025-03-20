@@ -1,16 +1,16 @@
-import styles from './Profile.module.css'; // Імпортуємо стилі
+import styles from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className={styles.profile}> {/* Відображаємо клас для контейнера профілю */}
+    <div className={styles.profile}>
       <div>
-        <img src={image} alt="User avatar" className={styles.avatar} /> {/* Відображаємо клас для аватара */}
-        <p className={styles.name}>{name}</p> {/* Відображаємо клас для імені */}
-        <p className={styles.tag}>@{tag}</p> {/* Відображаємо клас для тега */}
-        <p className={styles.location}>{location}</p> {/* Відображаємо клас для локації */}
+        <img src={image} alt="User avatar" className={styles.avatar} />
+        <p className={styles.name}>{name}</p>
+        <p className={styles.tag}>@{tag}</p>
+        <p className={styles.location}>{location}</p>
       </div>
 
-      <ul className={styles.stats}> {/* Відображаємо клас для статистики */}
+      <ul className={styles.stats}>
         <li className={styles.statItem}>
           <span>Followers</span>
           <span>{stats.followers}</span>

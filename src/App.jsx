@@ -1,13 +1,14 @@
 import React from "react";
 import Profile from "./components/Profile/Profile";
-import userData from "./userData.json"; // Імпортуємо дані користувача з JSON
-import FriendList from "./components/FriendList/FriendList"; // Імпортуємо FriendList
-import friends from "./friends.json"; // Імпортуємо дані про друзів з JSON
+import userData from "./userData.json";
+import FriendList from "./components/FriendList/FriendList";
+import friends from "./friends.json";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+import transactions from "./transactions.json";
 
 const App = () => {
   return (
     <>
-      {/* Окремий компонент для профілю */}
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -15,13 +16,12 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
-      
-      {/* Окремий компонент для списку друзів */}
+
       <FriendList friends={friends} />
+
+      <TransactionHistory items={transactions} />
     </>
   );
 };
 
 export default App;
-
-

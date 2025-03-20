@@ -8,7 +8,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 380px;
   margin: 0 100px;
-  
 }
 
 .avatar {
@@ -19,7 +18,6 @@
   margin-bottom: 10px;
 }
 
-/* Окремі класи для кожного <p> елемента */
 .name {
   font-weight: bold;
   font-size: 24px;
@@ -29,7 +27,7 @@
   margin-bottom: 10px;
 }
 
-.tag, 
+.tag,
 .location {
   font-size: 18px;
   color: #777;
@@ -37,7 +35,6 @@
   margin: 0;
   margin-bottom: 5px;
 }
-
 
 .stats {
   display: flex;
